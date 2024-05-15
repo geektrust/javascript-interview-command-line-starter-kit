@@ -1,7 +1,7 @@
 
 function main() {
-    const scenarios = process.argv.slice(2)
-    if (scenarios.length === 0) {
+    const commands = process.argv.slice(2)
+    if (commands.length === 0) {
         throw new Error("No command line arguments passed")
     }
     /*
@@ -13,9 +13,9 @@ function main() {
     *
     * We loop through the list of commands passed in as input arguments and handle each one of them
     */
-    for (let scenario of scenarios) {
+    for (let cmd of commands) {
         //arg will have each command passed in the command line argumens
-        handle(scenario)
+        handle(cmd)
     }
 }
 
@@ -27,8 +27,8 @@ function main() {
  * We split the string and retrieve the input data appropriately into the variable inputListForOneCommand.
  *
  */
-function handle(scenario) {
-    const inputsForOneCommand = scenario.split(' ')
+function handle(cmd) {
+    const inputsForOneCommand = cmd.split(' ')
     console.log(inputsForOneCommand)
     //TODO: implement the logic to handle each input
 }
