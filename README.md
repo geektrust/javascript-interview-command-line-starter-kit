@@ -3,7 +3,7 @@
 This is a skeleton project structure which will help you start solving the problem right away.
 
 ## Tools available to you.
-- NodeJS
+- Node.js
 
 ## Checking for correctness 
 
