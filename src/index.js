@@ -9,7 +9,7 @@ function main() {
     *  Example: ["PLACE_ORDER 101 Apple 5", "TOTAL_COST 101"]
     *
     * The code evaluator will execute this code by using the command
-    * node main.js 'PLACE_ORDER 101 Apple 5' 'TOTAL_COST 101'
+    * node . 'PLACE_ORDER 101 Apple 5' 'TOTAL_COST 101'
     *
     * We loop through the list of commands passed in as input arguments and handle each one of them
     */

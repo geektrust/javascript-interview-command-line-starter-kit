@@ -11,7 +11,7 @@ This is a skeleton project structure which will help you start solving the probl
 
 ## Running the project
 
-- To run, issue the command `node main.js '<input 1>' '<input 2>'` where  **input** is a valid input given in the problem statement.
+- To run, issue the command `node . '<input 1>' '<input 2>'` where  **input** is a valid input given in the problem statement.
 - For example: `node main.js 'PLACE_ORDER 101 Apple 5' 'TOTAL_COST 101'`
 
 Note: Each full command should be wrapped in single quotes.
